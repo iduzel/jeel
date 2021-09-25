@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.logo {
+    padding-left: 10rem;
+
+}
+
+
+
+
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(110deg,
+            white 55%,
+            rgba(76, 77, 82, 0.363)50%);
+   
+
+}
+
+.kontakt::after {
+    background-image: url('/images/04.png');
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 30%; 
+    height: 40%;
+    content:"";
+    position: absolute;
+    top: 300px;
+    right:100px;
+  
+}
+
+/* JEEL */
+
+.mainImage img {
+    max-width: 70%;
+    transform: translate(13rem, 10rem);
+}
+
+.mainText {
+    margin: 10rem;
+}
+.mainText h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.mainText h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.mainText p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+/*MARKEN*/
+.card {
+    width: 16rem;
+    height: 8rem;
+    border-radius: .6rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    opacity: .8;
+}
+
+.card img {
+    width: 50%;
+
+
+}
+
+
+.marken-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marken-h2 {
+    text-align: center;
+    margin-top: 5rem;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+/*WIE*/
+
+.wie-part img {
+    max-width: 100%;
+}
+
+.wie h2 {
+    text-align: center;
+    margin: 5rem auto 3rem auto;
+
+}
+
+.wie h3 {
+    color: red;
+}
+
+.wie p {
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+
+/* RECRUITING*/
+
+
+.recruiting-part {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.rec-img {
+    width: 50rem;
+    height: 8rem;
+    margin-left: 50rem;
+    padding-top: 10rem;
+}
+
+.rec-img img {
+    max-width: 100%;
+}
+
+.recruiting-text {
+    margin-left: 10rem;
+}
+
+.recruiting-text h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.recruiting-text h5 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.recruiting-part ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recruiting-part ul li {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+
+
+/*  KONTAKT*/
+
+.kontakt-main {
+    margin: 5rem 11rem;
+}
+.kontakt-main h1 {
+    margin: 2rem 0rem;
+}
+
+.kontakt-main div{
+margin: 2rem 0rem;
+}
