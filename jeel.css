@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *,
 *::before,
 *::after {
@@ -16,18 +18,20 @@ body {
     bottom: 0px;
     width: 100%;
 
-    font-family: 'Oswald', sans-serif;
-
 }
+
 
 .logo {
     padding-left: 10rem;
-
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .4rem;
+    height: 6rem;
+    width: 30%;
+    padding-top: 4rem;
+    font-size: 4rem;
+    
+   
 }
-
-
-
-
 
 .bg {
     width: 100%;
@@ -35,42 +39,42 @@ body {
     background-image: linear-gradient(110deg,
             white 55%,
             rgba(76, 77, 82, 0.363)50%);
-   
-
 }
 
-.kontakt::after {
-    background-image: url('/images/04.png');
-    background-size: 400px 400px;
-    background-repeat: no-repeat;
-    display: block;
-    width: 30%; 
-    height: 40%;
-    content:"";
-    position: absolute;
-    top: 300px;
-    right:100px;
-  
+
+.nav-link {
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: .5rem;
+    color: blue;
+}
+
+.nav-link:hover {
+    color: red;
+
 }
 
 /* JEEL */
 
 .mainImage img {
-    max-width: 70%;
-    transform: translate(13rem, 10rem);
+    max-width: 60%;
+    transform: translate(21rem, 8rem);
 }
 
 .mainText {
     margin: 10rem;
 }
+
 .mainText h1 {
     font-size: 2.2rem;
     font-weight: 900;
 }
+
 .mainText h2 {
     font-size: 2rem;
     font-weight: 500;
 }
+
 .mainText p {
     font-size: 1.6rem;
     font-weight: 400;
@@ -186,13 +190,39 @@ body {
 
 /*  KONTAKT*/
 
+.kontakt::after {
+    background-image: url('/images/04.png');
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 30%;
+    height: 45%;
+    content: "";
+    position: absolute;
+    top: 300px;
+    right: 100px;
+
+}
+
+
 .kontakt-main {
     margin: 5rem 11rem;
 }
+
 .kontakt-main h1 {
+    margin: 2rem 0rem;
+    font-size: 2.4rem;
+}
+
+.kontakt-main div {
     margin: 2rem 0rem;
 }
 
-.kontakt-main div{
-margin: 2rem 0rem;
+.kundenService h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.kundenService p  {
+   margin-bottom: .5rem;
+   font-size: .9rem;
 }
